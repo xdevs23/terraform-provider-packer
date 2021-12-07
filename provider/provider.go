@@ -27,6 +27,7 @@ func (p *provider) GetSchema(_ context.Context) (tfsdk.Schema, diag.Diagnostics)
 				Type:     types.StringType,
 				Optional: true,
 				Computed: true,
+				Description: "Used as a placeholder. Do not use.",
 			},
 		},
 	}, nil
